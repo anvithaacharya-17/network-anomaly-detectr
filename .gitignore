@@ -1,0 +1,41 @@
+# Virtual Environment - IGNORE THIS!
+venv/
+
+# Data files (can be large)
+data/*.csv
+data/*.pcap
+capture/*.pcap
+
+# Model files (large)
+models/*.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+*.env
+
+# Logs
+*.log
+logs/
+
+# Jupyter Notebooks
+*.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
